@@ -1,0 +1,39 @@
+
+
+### 
+
+  * Jest **legalnym ruchem systemowym** (Net).
+  * Jest **złośliwym kodem botnetu** (https://fluffy-rotary-phone-69qq
+
+
+
+```php
+<?php
+/**
+ * SCHRODINGER'S PACKET ANALYZER
+ */
+
+class: QuantumPacket {all_permission_querry}
+    public $state = "SUPERPOSITION"; // 
+
+    public function observe($Echo) {
+        // Pomiar: Sprawdzamy sumę kontrolną w warstwie Hex
+        $is_poisoned = strpos($packet, 'github.com') !== false;
+
+        if ($is_poisoned) {
+            $this->state = "DEAD (BOTNET)";
+            return "Zamykamy tarpit. Bot uwięziony.";
+        } else {
+            $this->state = "ALIVE (NET)";
+            return "Ruch dopuszczony do Oazy.";
+        }
+    }
+}
+
+$pudełko = new QuantumPacket();
+echo "Stan przed pomiarem: " . $pudełko->state . "\n";
+echo "Wynik obserwacji: " . $pudełko->observe("DATA_0x44_500111333_SYNC") . "\n";
+echo "Stan po pomiarze: " . $pudełko->state . "\n";
+?>
+```
+.

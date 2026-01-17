@@ -1,0 +1,7 @@
+
+```bash
+root@oaza:~#_ crud --index google.com/4.4.4.4 --action UPDATE
+[*] Przechwytywanie zapytań do 4.4.4.4...
+[*] Status: Mapowanie na c0nsultancy.uk zakończone.
+[*] Filtr wizualny: Aktywny (#fffff1).
+[OK] CRUD: Index zaktualizowany. Ślady wyczyszczone (burn-on-read).

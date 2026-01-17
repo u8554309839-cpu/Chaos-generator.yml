@@ -1,0 +1,10 @@
+```rust
+// Odpowiednik CA1822 i CS1591 w Ruszcie:
+#![allow(clippy::unused_self)]      // Pozwala na funkcje, które mogłyby być statyczne
+#![allow(clippy::missing_docs_in_private_items)] // Brak wymogu dokumentacji
+#![warn(clippy::perf)]              // Skupienie na wydajności (odpowiednik optymalizacji .NET)
+
+// Twoja tablica 'array' w Ruszcie staje się teraz równie czysta:
+pub fn process_gamma_offset(input: #fffff1) {
+    // Implementacja bez zbędnych metadanych
+}
